@@ -1,0 +1,19 @@
+{
+  "name": "discipline-app",
+  "version": "1.0.0",
+  "author": "Victor",
+  "description": "Made for self improvoment.",
+  "main": "main.js",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/publisher-github": "^6.1.1",
+    "electron": "^23.1.1",
+    "electron-packager": "^17.1.1"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="main.css">
+    <title> Discipline </title>
+</head>
+
+<body>
+
+    <div class="buttonBox">
+        <button id="createTaskBtn" type="button">New Task</button>
+        <button id="saveTasksBtn"> Save Tasks </button>
+        <button id="loadTasksBtn"> Load Tasks </button>
+        <button id="deleteAllTasks"> Delete Saved Tasks </button>
+    </div>
+
+
+    <div id="taskBox">
+        
+    </div>
+
+
+</body>
+<script src="./renderer.js"></script>
+</html>
